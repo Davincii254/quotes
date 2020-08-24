@@ -1,0 +1,31 @@
+.bolder {
+  font-weight: bold;
+}
+h1 {
+  font-size: 450%;
+  text-align: center;
+  font-family: georgia, sans-serif;
+  text-decoration: underline;
+}
+.dimmer {
+  opacity: 0.88;
+}
+.gratuitous {
+  font-size: 120%;
+  font-style: italic;
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgb(0,0,0,0.4)),url(src/assets/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-attachment: fixed;
+}
+li {
+  font-family: georgia, sans-serif;
+  font-size: 170%;
+  text-align: center;
+}
+.timePublish {
+  font-size: 140%;
+}
