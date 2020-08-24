@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getTitleText()).toEqual('angular-quotes app is running!');
+=======
+    expect(page.getTitleText()).toEqual('Quotables app is running!');
+>>>>>>> a70129492a45a8a8239c1c89d04dcbe2e0b9619e
   });
 
   afterEach(async () => {

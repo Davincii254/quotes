@@ -1,6 +1,21 @@
+<<<<<<< HEAD
 # AngularQuotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+=======
+# Project Name 
+
+Quotables
+
+## Project Description 
+
+- An application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+
+## Author 
+
+- [Victor Kuria](https://github.com/Davincii254)
+>>>>>>> a70129492a45a8a8239c1c89d04dcbe2e0b9619e
 
 ## Development server
 
@@ -26,6 +41,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+<<<<<<< HEAD
 QUOTES
 
 This is a website that will allow a user to view quotes, ad votes and vote for the best votes.
@@ -71,3 +87,22 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
+## Technologies Used
+
+- HTML, CSS, JavaScript, Bootstrap & TypeScript
+
+## Link to Live Project
+
+- 
+
+## Contact Information
+
+- Victorkuria7@gmail.com
+
+## License Copyright 
+
+- 2020, Victor Kuria
+
+https://opensource.org/licenses/MIT
+>>>>>>> a70129492a45a8a8239c1c89d04dcbe2e0b9619e
