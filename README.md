@@ -9,7 +9,7 @@ Quotables
 
 ## Author 
 
-- [John Karima](https://github.com/JohnKarima)
+- [Victor Kuria](https://github.com/Davincii254)
 
 ## Development server
 
@@ -41,14 +41,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Link to Live Project
 
-- https://johnkarima.github.io/quotables/
+- 
 
 ## Contact Information
 
-- karimajohn24@gmail.com
+- Victorkuria7@gmail.com
 
 ## License Copyright 
 
-- 2020, John Karima.
+- 2020, Victor Kuria
 
 https://opensource.org/licenses/MIT
