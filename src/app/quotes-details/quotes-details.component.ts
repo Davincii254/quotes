@@ -34,15 +34,3 @@ export class QuotesDetailsComponent implements OnInit {
     
 }
 
-
-// constructor() {
-//   // this.votes = this.votes || 0;
-// }
-// voteUp(): boolean {
-//   this.votes += 1;
-//   return false;
-// }
-// voteDown(): boolean {
-//   this.votes -= 1;
-//   return false;
-// }
