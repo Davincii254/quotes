@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <h2 class="text-center">Create a new Quote</h2>
+    <hr>
+    <form (ngSubmit)='submitQuotes()' #quotesForm='ngForm'>
+      <div class="form-group">
+        
+        <label for="actualQuote">Quote</label>
+        <textarea class="form-control" id="actualQuote" [(ngModel)]="newQuotes.actualQuote" name="actualQuote" #actualQuote='ngModel'
+         rows="1" required></textarea>
+  
+         <div [hidden]="actualQuote.valid || actualQuote.pristine" class="alert alert-danger">
+          <p>Quote is required</p>
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="author">Author</label>
+        <input type="text" required class="form-control" id="author" [(ngModel)]="newQuotes.quoteAuthor" name="quoteAuthor" #quoteAuthor='ngModel'>
+  
+        <div [hidden]="quoteAuthor.valid || quoteAuthor.pristine" class="alert alert-danger">
+          <p>Quote's Author is required</p>
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="submittedBy">Submitted by</label>
+        <input type="text" required class="form-control" id="submittedBy" [(ngModel)]="newQuotes.quoteSubmitter" name="quoteSubmitter" #quoteSubmitter='ngModel'>
+  
+        <div [hidden]="quoteSubmitter.valid || quoteSubmitter.pristine" class="alert alert-danger">
+          <p>Who is submitting this quote?</p>
+        </div>
+      </div>
+  
+      <button type="submit" class="btn btn-success rounded-pill text-center">Add Quote</button>
+    </form>
+  </div>
