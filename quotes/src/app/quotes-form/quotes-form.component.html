@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <h2 class="text-center">Create a new Quote</h2>
+    <h2 class="text-center">Create new Quote</h2>
     <hr>
     <form (ngSubmit)='submitQuotes()' #quotesForm='ngForm'>
       <div class="form-group">
@@ -27,7 +27,7 @@
         <input type="text" required class="form-control" id="submittedBy" [(ngModel)]="newQuotes.quoteSubmitter" name="quoteSubmitter" #quoteSubmitter='ngModel'>
   
         <div [hidden]="quoteSubmitter.valid || quoteSubmitter.pristine" class="alert alert-danger">
-          <p>Who is submitting this quote?</p>
+          <p>Submited by?</p>
         </div>
       </div>
   
