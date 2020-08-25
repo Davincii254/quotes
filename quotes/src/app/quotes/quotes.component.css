@@ -1,21 +1,15 @@
 .bolder {
     font-weight: bold;
   }
-  h1 {
-    font-size: 450%;
+  h1,h2 {
+    font-size: 200%;
     text-align: center;
-  }
-
-  .gratuitous {
-    font-size: 120%;
-    font-style: italic;
+    color: blueviolet;
   }
 
   li {
-    font-family: georgia, sans-serif;
-    font-size: 170%;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
   }
-  .timePublish {
-    font-size: 140%;
-  }
+ 
