@@ -14,7 +14,7 @@
               <div class="card-body">
                 <div *ngFor='let quotes of sortedQuotes(); let i = index'>
                   <li style="list-style-type:none;" class="bolder">"{{quotes.actualQuote}}"
-                  <li class="timePublish" style="list-style-type:none;">Published {{quotes.createTime|timeCounter}} days
+                  <li class="timePublish" style="list-style-type:none;">Published {{quotes.createTime|timeCounter}} seconds
                     ago</li>
                   <app-quotes-details class="quoteDetailStyle" *ngIf='quotes.showDescription' [quotes]='quotes'
                     (isComplete)='deleteQuote($event,i)'>

@@ -1,18 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-<<<<<<< HEAD
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-=======
 import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -36,7 +23,6 @@ import { TimeCounterPipe } from './time-counter.pipe';
     BrowserModule,
     AppRoutingModule,
     FormsModule
->>>>>>> a70129492a45a8a8239c1c89d04dcbe2e0b9619e
   ],
   providers: [],
   bootstrap: [AppComponent]
