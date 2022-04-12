@@ -1,23 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuotesComponent } from './quotes/quotes.component';
-import { QuotesDetailsComponent } from './quotes-details/quotes-details.component';
-import { QuotesFormComponent } from './quotes-form/quotes-form.component';
-import { HighlightDirective } from './highlight.directive';
-import { TimeCounterPipe } from './time-counter.pipe';
+import { ListQuotesComponent } from './list-quotes/list-quotes.component';
+import { QuoteDescriptionComponent } from './quote-description/quote-description.component';
+import { TimeAgoPipe } from './time-ago.pipe';
+import { QuotehighlightDirective } from './quotehighlight.directive';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuotesComponent,
-    QuotesDetailsComponent,
-    QuotesFormComponent,
-    HighlightDirective,
-    TimeCounterPipe,
+    ListQuotesComponent,
+    QuoteDescriptionComponent,
+    TimeAgoPipe,
+    QuotehighlightDirective,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,

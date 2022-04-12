@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { Quotes } from './quotes';
-
 
 @Component({
   selector: 'app-root',
@@ -8,4 +6,5 @@ import { Quotes } from './quotes';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = '"Quotes Hub"';
 }
